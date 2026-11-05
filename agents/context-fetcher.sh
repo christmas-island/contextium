@@ -76,8 +76,8 @@ load_project_docs() {
     fi
 
     # Check for Claude instructions
-    if [ -f ".claude/claude.md" ]; then
-        log_info "Claude instructions loaded from .claude/claude.md"
+    if [ -f "AGENTS.md" ]; then
+        log_info "Agent index loaded from AGENTS.md"
     fi
 }
 
@@ -173,7 +173,7 @@ output_summary() {
     echo "Loaded context sources:"
 
     [ -d "$CONTEXT_DIR" ] && echo "  - Project documentation ($CONTEXT_DIR/)"
-    [ -f ".claude/claude.md" ] && echo "  - Claude instructions (.claude/claude.md)"
+    [ -f "AGENTS.md" ] && echo "  - Agent index (AGENTS.md)"
     [ -f "$STATE_DIR/memory.mv2" ] && echo "  - Memvid memory"
 
     local task_id=$(get_current_task)

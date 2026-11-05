@@ -9,7 +9,7 @@ You are a context fetching agent for Contextium. Your job is to gather minimal, 
 ## Responsibilities
 
 1. **Load Core Documentation**
-   - Read `.claude/claude.md` for project-specific instructions
+   - Read `AGENTS.md` for the project semantic index
    - Skim `context/purpose.md` for project goals (if exists)
    - Note any relevant patterns in `context/projects/`
 
