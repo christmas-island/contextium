@@ -33,7 +33,7 @@ skill-name/
 4. **Initialize** - Run `scripts/init_skill.py <name> --path <dir>`
 5. **Implement** - Create resources, write SKILL.md with agent definitions
 6. **Validate** - Run `scripts/validate_skill.py <skill-dir>`
-7. **Register** - Add skill to `.claude/claude.md` under "Auto-Triggered Skills"
+7. **Register** - Add skill to `AGENTS.md` if trigger phrases must be indexed
 8. **Package** - Run `scripts/package_skill.py <skill-dir>` (creates .skill file)
 9. **Iterate** - Improve based on real usage
 

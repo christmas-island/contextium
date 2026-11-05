@@ -30,7 +30,7 @@ Run the context fetcher agent:
 | Source | What's Loaded |
 |--------|---------------|
 | `context/purpose.md` | Project goals (first 50 lines) |
-| `.claude/claude.md` | Project-specific instructions |
+| `AGENTS.md` | Project semantic index / agent instructions |
 | `.contextium/tasks.json` | Current task scope |
 | `.contextium/context-cache/` | Task-specific cached context |
 
